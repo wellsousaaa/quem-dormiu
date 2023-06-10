@@ -1,0 +1,73 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  /* padding: 2rem; */
+  max-width: 90vw;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  height: 40px;
+  border-radius: 0.3rem;
+  border: 1px solid #fff;
+  padding-left: 0.3rem;
+}
+
+table {
+  width: 100%;
+}
+
+table tr {
+  display: flex;
+  align-items: center;
+}
+
+table td {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  text-align: left;
+
+  height: 35px;
+}
+
+.index {
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 25px;
+  height: 25px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.absolute {
+  position: absolute;
+  margin: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
+
+p.absolute {
+  opacity: 0.2;
+  bottom: 10px;
+}
+
+h1.absolute {
+  top: 100px
+}
+
+p.absolute:hover {
+  opacity: 1;
+}
