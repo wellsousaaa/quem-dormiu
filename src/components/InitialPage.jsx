@@ -36,7 +36,7 @@ function InitialPage({ setInfo }) {
   return (
     <form onSubmit={handleSubmit}>
       <h1 style={{ fontSize: "2.5rem", width: "100%" }} className="absolute">
-        Alguém dormiu 💤
+        Quem dormiu? 💤
       </h1>
       <p>Preencha os dados para gerar as informações da partida:</p>
 
