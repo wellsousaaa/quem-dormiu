@@ -38,7 +38,7 @@ function InitialPage({ setInfo }) {
       <h1 style={{ fontSize: "2.5rem", width: "100%" }} className="absolute">
         Alguém dormiu 💤
       </h1>
-      <p>Insira as informações para gerar as informações da partida:</p>
+      <p>Preencha os dados para gerar as informações da partida:</p>
 
       <div className="flex" style={{ gap: "2rem" }}>
         <input
