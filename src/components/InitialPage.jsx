@@ -93,6 +93,8 @@ function InitialPage({ setInfo }) {
       </div>
 
       <button type="submit">Enviar</button>
+
+      <p className="absolute"> Wendell de Sousa | 2023 </p>
     </form>
   );
 }
