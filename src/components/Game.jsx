@@ -81,10 +81,6 @@ export default function Game({ data }) {
           <h4 style={{ opacity: showSelected ? 1 : 0 }}>{gameData.selected}</h4>
           <button onClick={() => setShowSelected((s) => !s)}>👁️👁️</button>
         </div>
-
-        <p className="absolute">
-          {data.code} / P: {data.players} / Player {data.order}
-        </p>
       </div>
     );
 

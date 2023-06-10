@@ -18,7 +18,12 @@ function App() {
   return (
     <div>
       {partyData.code ? (
-        <Game data={partyData} />
+        <>
+          <Game data={partyData} />
+          <p className="absolute">
+            {partyData.code} / P: {partyData.players} / Player {partyData.order}
+          </p>
+        </>
       ) : (
         <InitialPage setInfo={setInfo} />
       )}
